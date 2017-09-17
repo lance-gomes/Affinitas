@@ -1,0 +1,7 @@
+.messageBox{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 500px;
+}

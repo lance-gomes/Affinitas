@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: fadeIn 1s
+}
+
+@keyframes fadeIn {
+  0%{opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.signupBox {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6C7A89;
+  height: 200px;
+  width: 400px;
+  border: 0.1px solid black;
+  border-radius: 5px;
+}
+
+.startButton {
+  background-color: #e0e1e2;
+  border: none;
+  border-radius:2px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.genderContainer {
+  padding: 50px;
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.textContainer {
+  padding-bottom:20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}

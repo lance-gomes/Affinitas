@@ -1,0 +1,50 @@
+.sendButton {
+  background-color: #e0e1e2;
+  border: none;
+  border-radius:2px;
+  cursor: pointer;
+}
+
+
+.chatBox {
+  display: flex;
+  align-items: flex-start;
+  background-color: #6C7A89;
+  background: linear-gradient(to bottom right, #bdc3c7, #7f8c8d);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 900px;
+  border: 0.1px solid black;
+  border-radius: 5px;
+}
+
+.messageBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 85%;
+  padding-left: 10px;
+}
+
+.messagingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  width: 70%;
+}
+
+.typeBox {
+  margin-left: 10px;
+  width: 250px;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  width: inherit;
+  height: inherit;
+}
